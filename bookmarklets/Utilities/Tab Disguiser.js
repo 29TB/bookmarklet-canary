@@ -1,4 +1,4 @@
-javascript: function gcloak() {
+function gcloak() {
 	var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
 	link.type = 'image/x-icon';
 	link.rel = 'shortcut icon';
